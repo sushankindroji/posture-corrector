@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2E86C1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Spine -->
+  <path d="M12 3v18" stroke="#1B4F72"/>
+  
+  <!-- Shoulders -->
+  <path d="M8 6l8-2"/>
+  
+  <!-- Hips -->
+  <path d="M9 18l6 2"/>
+  
+  <!-- Head -->
+  <circle cx="12" cy="2" r="1.5"/>
+  
+  <!-- Checkmark of correct posture -->
+  <path d="M16 9l-4 4-2-2" stroke="#28B463"/>
+</svg>

@@ -1,0 +1,7 @@
+fastapi>=0.68.0
+uvicorn>=0.15.0
+python-multipart>=0.0.5
+python-dotenv>=0.19.0
+opencv-python-headless>=4.5.4.60
+mediapipe>=0.10.5
+websockets>=10.1
