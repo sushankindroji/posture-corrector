@@ -1,0 +1,22 @@
+# Ignore Python virtual environments
+venv/
+backend/venv/
+
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+
+# Large compiled files
+*.pyd
+*.dll
+*.so
+
+# VS Code
+.vscode/
+
+# Node modules if you use React
+frontend/node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
