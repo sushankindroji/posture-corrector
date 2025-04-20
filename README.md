@@ -4,19 +4,19 @@
 if u want to run open vs code and 
 
 
--cd backend
+cd backend
 
--python -m venv venv
+python -m venv venv
 
--venv\Scripts\activate
+venv\Scripts\activate
 
--pip install -r requirements.txt
+pip install -r requirements.txt
 
--uvicorn app:app --reload --port 8000
+uvicorn app:app --reload --port 8000
 
 
--cd frontend
+cd frontend
 
--npm install
+npm install
 
--npm run dev
+npm run dev
