@@ -1,7 +1,7 @@
 # posture-corrector
 
 
-if u want to run open vs code and 
+if u want to run, open vs code and clone repo then
 
 
 cd backend
@@ -14,6 +14,8 @@ pip install -r requirements.txt
 
 uvicorn app:app --reload --port 8000
 
+
+in new terminal
 
 cd frontend
 
