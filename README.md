@@ -4,6 +4,8 @@
 if u want to run, open vs code and clone repo then
 
 
+for backend setup
+
 cd backend
 
 python -m venv venv
@@ -16,7 +18,7 @@ uvicorn app:app --reload --port 8000
 
 
 
-in new terminal
+for frontend setup in new terminal
 
 cd frontend
 
