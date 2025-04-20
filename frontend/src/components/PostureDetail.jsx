@@ -21,7 +21,7 @@ const PostureDetail = () => {
 
   const startAnalysis = async () => {
     try {
-      const response = await fetch(`https://posture-corrector-backend.onrender.com/start-posture/${postureId}`, {
+      const response = await fetch(`http://localhost:8000/start-posture/${postureId}`, {
         method: 'POST'
       });
       const data = await response.json();
@@ -29,7 +29,7 @@ const PostureDetail = () => {
       setIsRunning(true);
       
       // Connect to WebSocket
-      const newWs = new W3CWebSocket(`wss://posture-corrector-backend.onrender.com/ws/${data.process_id}`);
+      const newWs = new W3CWebSocket(`ws://localhost:8000/ws/${data.process_id}`);
       newWs.onmessage = (message) => {
         const data = JSON.parse(message.data);
         if (data.type === 'data') {
@@ -47,7 +47,7 @@ const PostureDetail = () => {
 
   const stopAnalysis = async () => {
     try {
-      await fetch(`https://posture-corrector-backend.onrender.com/stop-posture/${processId}`, {
+      await fetch(`http://localhost:8000/stop-posture/${processId}`, {
         method: 'POST'
       });
       setIsRunning(false);
