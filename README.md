@@ -4,7 +4,7 @@
 if u want to run open vs code and 
 
 
--cd backend \n
+-cd backend
 -python -m venv venv
 -venv\Scripts\activate
 -pip install -r requirements.txt
