@@ -1,6 +1,11 @@
 # posture-corrector
 
 
+deployed on render and here's the website ( not succesful cus opencv doesnt work on deployed websites due to website permission access for camera etc so alternatives can be embedded and modified in place of opencv)
+https://posture-corrector-frontend.onrender.com/
+
+
+
 if u want to run, open vs code and clone repo then
 
 
